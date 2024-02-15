@@ -8,7 +8,7 @@ jobs:
       - uses: actions/setup-java@v3
         with:
           distribution: 'temurin'
-          java-version: '21'
+          java-version: '22-ea'
           cache: 'maven'
       - name: Build with Maven
         run: ./mvnw --show-version --no-transfer-progress --errors --batch-mode package
