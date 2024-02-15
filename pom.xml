@@ -7,11 +7,11 @@
     <packaging>jar</packaging>
 
     <properties>
-        <maven.compiler.release>21</maven.compiler.release>
+        <maven.compiler.release>22</maven.compiler.release>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <!-- fixing the build timestamp of the jar so that the jar file only changes, if content changes.
              the actual timestamp is irrelevant. -->
-        <project.build.outputTimestamp>2022-09-26T17:00:00Z</project.build.outputTimestamp>
+        <project.build.outputTimestamp>1980-01-01T12:00:00Z</project.build.outputTimestamp>
     </properties>
 
     <build>
