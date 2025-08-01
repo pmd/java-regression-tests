@@ -7,7 +7,7 @@
     <packaging>jar</packaging>
 
     <properties>
-        <maven.compiler.release>22</maven.compiler.release>
+        <maven.compiler.release>25</maven.compiler.release>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <!-- fixing the build timestamp of the jar so that the jar file only changes, if content changes.
              the actual timestamp is irrelevant. -->
