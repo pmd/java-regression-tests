@@ -26,7 +26,7 @@
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-jar-plugin</artifactId>
-                    <version>3.5.0</version>
+                    <version>3.5.1</version>
                     <configuration>
                         <!-- moving the created jar file outside of target, so that
                              it can be committed. This avoids the need to build this project
